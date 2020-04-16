@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ReuseMethods]">
+  <test name="Tetscase1(failed)">
+    <classes>
+      <class name="appiumtests.ReusableMethosHomeJiny">
+        <methods>
+          <include name="Tetscase1"/>
+        </methods>
+      </class> <!-- appiumtests.ReusableMethosHomeJiny -->
+    </classes>
+  </test> <!-- Tetscase1(failed) -->
+</suite> <!-- Failed suite [ReuseMethods] -->
